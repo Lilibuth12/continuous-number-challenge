@@ -19,7 +19,7 @@ class NumberChallenge {
     const config = this.config;
     const sum = config.sums[this.randomNumber(0, config.sums.length)];
 
-    const nums = math.range(0, config.operators+1).map(() => {
+    const nums = math.range(0, config.operators + 1).map(() => {
       return this.randomNumber(sum.min, sum.max + 1);
     });
     const sumStr = nums._data.join(` ${sum.operator} `);
