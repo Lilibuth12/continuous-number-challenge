@@ -1,2 +1,2 @@
-# The Continous Number Challenge
-A number test for those who are numerically challenged. 
+# Quick Math Test
+Math questions for those who are numerically challenged. 
