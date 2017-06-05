@@ -8,11 +8,12 @@
   },
   "author": "Lizzie Davison",
   "license": "WTFPL",
-  "devDependencies": {
-    "mathjs": "^3.4.1",
-    "prompt": "^1.0.0"
-  },
   "bin": {
-      "quick-math-test": "./index.js"
+    "quick-math-test": "./example.js"
+  },
+  "dependencies": {
+    "mathjs": "^3.4.1",
+    "prompt": "^1.0.0",
+    "colors": "^1.1.2"
   }
 }
